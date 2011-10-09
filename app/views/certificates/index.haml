@@ -1,7 +1,7 @@
 = form_tag({:action => :create}, {:id => "certificate_form", :target => "_new"}) do
 	%fieldset
 		#fields
-			= label :cretificate, "Name:"
+			= label :cretificate, "Nome:"
 			%br
 			= text_field :certificate, :name
 		#actions
@@ -9,3 +9,7 @@
 				= image_tag("tick.png")
 				%label 
 					Gerar
+:javascript
+	$(function(){
+		$('#certificate_name').focus();
+	});

@@ -6,13 +6,12 @@
 		%title
 			VII Guru-CE - Certifications
 		= stylesheet_link_tag :all
-		= javascript_include_tag :defaults
 	%body
 		#box
 			%script(type="text/javascript" src="//platform.twitter.com/widgets.js")
 			%a{:href=> "https://twitter.com/share", :class=> "twitter-share-button",
-				:data => {:url=>"https://dev.twitter.com/pages/tweet_button", :via=>"your_screen_name",
-				:text=>"Checking out this page about Tweet Buttons", :related=>"anywhere:The Javascript API",
+				:data => {:url=>"https//dev.twitter.com/pages/tweet_button", :via=>"gesielrios",
+				:text=>"App de exemplo do Prawn para o VII GURUCE", :related=>"anywhere:The Javascript API",
 				:count=>"vertical"}}Tweet
 			%script(type="text/javascript" src="https://apis.google.com/js/plusone.js")
 				{lang: 'pt-PT'}
@@ -20,13 +19,15 @@
 		#main
 			%header
 				%h1
-					New Certificate
+					Novo Certificado
 			#body
+				= javascript_include_tag :defaults
 				= yield
 			%footer
 				%p
 					Copyright &copy; 2011 -
 					%a{:href => "http://guruce.org/", :target => "_new"}
 						Grupo de Usuários Ruby do Ceará.
+		
 
 
