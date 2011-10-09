@@ -4,6 +4,7 @@ gem 'rails', '3.0.10'
 gem 'prawn'
 gem 'jquery-rails'
 gem 'sqlite3'
+gem 'haml'
 
 group :development, :test do
 	gem 'capistrano'
