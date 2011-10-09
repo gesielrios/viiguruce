@@ -1,6 +1,11 @@
-%form{:method => 'post' , :action => 'create'}
+= form_tag({:action => :create}, {:id => "certificate_form", :target => "_new"}) do
 	%fieldset
-		%label
-			Name:
-			%input{ :type => "text", :name => "name", :maxlength => "200" }
-		%input{ :type => "submit", :value => "Gerar", :class => "button" }
+		#fields
+			= label :cretificate, "Name:"
+			%br
+			= text_field :certificate, :name
+		#actions
+			%button{:class => "button"}		
+				= image_tag("tick.png")
+				%label 
+					Gerar

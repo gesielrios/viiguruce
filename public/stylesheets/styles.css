@@ -1,0 +1,114 @@
+* {
+    margin:0;padding:0
+}
+.clear {
+    clear: both; height: 0;
+}
+
+html {
+    background-color: #fff;
+}
+
+body {
+    font-size: 80%;
+    font-family: sans-serif;
+}
+
+#main {
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+    width: 960px;
+    font-size: 1.2em;
+}
+
+#body {
+    margin: 0 20px;
+    font-size: 1.4em;
+    text-shadow: 1px 1px 0 #fff;
+}
+
+header {
+    display: block;
+    border-bottom: 1px dotted #26ADE4;
+}
+
+header h1 {
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: -0.05em;
+    margin: .4em;
+}
+
+form {
+    margin: 20px auto;
+    padding: 0;
+    width: 440px;
+}
+
+form input {
+    font-size: 1.1em;
+    padding: 2px;
+    display: block;
+    width: 400px;
+}
+
+fieldset {
+    margin: 0;
+    padding: 20px;
+    border: none;
+}
+
+.button {
+    background: url("images/button-background.png") repeat scroll center top #EDEEED;
+    border: 1px solid #C3C4BA;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    float: right;
+    font-size: 14pt;
+    margin: 4px;
+    padding: 4px;
+    width: 140px;
+}
+
+footer {
+    display: block;
+    clear: both;
+    font-size: .9em;
+    padding: 0 20px;
+    border-top: 1px dotted #26ADE4;
+    text-align: center;
+}
+
+footer p {
+    margin: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color:#220000;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#box{
+		border:1px solid #eee; 
+		padding:5px; 
+		background:#fff; 
+		z-index:9999; 
+		display:block; 
+		position:absolute; 
+		top:200px; float:left; 
+		margin:0 0 0 0px; 
+		text-align:center; 
+		*width:60px; 
+		box-shadow:0 2px 4px #999;
+}
+
+#box div{
+	margin: 10px 0;
+}
+#box #___plusone_0 {display:block !important; margin: 20px auto 0 auto !important;} 
+
+
